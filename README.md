@@ -131,7 +131,7 @@ http://localhost:3000
 ---
 
 ## 🌍 Live Demo
-**Frontend (Vercel):** [Click Here](https://your-vercel-link.com)  
+**Frontend (Vercel):** [Click Here](https://ai-search-tool.vercel.app/)  
 **Backend (Render):** [Click Here](https://your-render-backend-url.com)
 
 

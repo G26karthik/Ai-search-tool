@@ -29,7 +29,7 @@ This is a **full-stack AI-powered search and aggregation tool** that takes user 
 
 ### **Clone the Repository**
 ```sh
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/G26karthik/Ai-search-tool.git
 cd your-repository-name
 ```
 

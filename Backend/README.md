@@ -18,7 +18,7 @@ YOUTUBE_API_KEY=your_youtube_api_key
 ```
 uvicorn main:app --reload
 ```
-###4️⃣ Test the API
+### 4️⃣ Test the API
 Open your browser and go to:
 ```
 http://127.0.0.1:8000/docs

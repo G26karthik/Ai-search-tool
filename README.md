@@ -80,6 +80,57 @@ npm start
 ```
 http://localhost:3000
 ```
+## **📊 Features & Functionality**
+
+### **1️⃣ AI Query Expansion**
+- Uses **NLP models** (`T5` or `BART`) from Hugging Face to expand user queries.
+- Helps generate more **relevant search terms** to improve results.
+- Can be toggled **ON/OFF** using a **toggle button**:
+  - **AI Mode ON**: Query is **expanded** before searching.
+  - **AI Mode OFF**: Uses the **exact user query** without modification.
+- **Alert message appears** when AI search is enabled, informing users that **accuracy may vary**.
+
+---
+
+### **2️⃣ Google & YouTube Search**
+- **Google Search**:
+  - Uses **SerpAPI** to fetch **organic search results**.
+  - Returns **title, snippet, and link** for each result.
+- **YouTube Search**:
+  - Uses **YouTube Data API v3** to fetch **relevant videos**.
+  - Displays **video title, description, and link** to watch.
+
+---
+
+### **3️⃣ Sorting & Filtering**
+- Users can **sort results** based on:
+  - 🔍 **Relevance** (Default)
+  - 📅 **Date** (Latest results first)
+  - 🌐 **Source** (Group Google & YouTube separately)
+- Filters help **refine search results** for **better accuracy**.
+
+---
+
+### **4️⃣ UI/UX Similar to Google**
+- **Search Bar in the Center**:  
+  - **Neatly styled**, like **Google Search**.
+  - **Toggle button** below it to switch **AI search ON/OFF**.
+- **Results Displayed in Two Columns**:
+  - **Left Side** → 🌍 **Google Search Results**.
+  - **Right Side** → 🎥 **YouTube Search Results**.
+- **Clean & Responsive Design**:
+  - Fully **mobile-friendly**.
+  - **Dark mode UI** for better readability.
+
+---
+
+### **5️⃣ Multithreaded Backend for Faster Searches**
+- Uses **Python’s FastAPI + Multithreading** to **speed up** search requests.
+- **Google & YouTube searches run in parallel**, reducing load time.
+
+---
+
+
 
 
 

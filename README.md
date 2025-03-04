@@ -130,10 +130,94 @@ http://localhost:3000
 
 ---
 
+## 🌍 Live Demo
+**Frontend (Vercel):** [Click Here](https://your-vercel-link.com)  
+**Backend (Render):** [Click Here](https://your-render-backend-url.com)
 
 
+## 📌 Deployment Instructions
+
+### Frontend Deployment (Vercel)
+
+# 1️⃣ Install Vercel CLI and log in
+```
+npm install -g vercel
+vercel login
+```
+
+# 2️⃣ Deploy the Frontend
+```
+cd search-tool
+vercel --prod
+```
+## Backend (Render)
+📌 Create requirements.txt in backend (already provided).
+
+📌 Push to GitHub & Deploy via Render.com.
 
 
+## 📑 Challenges & Future Improvements
 
+### ✅ Challenges Faced:
+
+Query expansion sometimes changes the intent of the search.
+API rate limits for SerpAPI & YouTube Data API.
+Initial slow response time (fixed with multithreading).
+
+### 🚀 Future Improvements:
+
+Add LinkedIn search integration.
+Use a database to cache & speed up repeated searches.
+Implement user authentication for personalized search history.
+
+## 🚀 Future Improvements
+
+- **Expand Search Sources:**  
+  - Integrate additional platforms such as LinkedIn, Reddit, and Twitter for a more comprehensive search experience.
+
+- **Enhanced Ranking & Filtering:**  
+  - Develop AI-based ranking algorithms to better prioritize the most relevant results.  
+  - Implement customizable filtering options based on user preferences.
+
+- **Database Integration:**  
+  - Cache frequently searched queries and results to improve response times.  
+  - Store user search history and preferences for personalized recommendations.
+
+- **User Authentication:**  
+  - Implement user accounts and secure login systems to provide personalized search experiences and save search histories.
+
+- **Performance Optimization:**  
+  - Further optimize API calls and explore serverless architectures to scale with demand.
+
+- **UI/UX Enhancements:**  
+  - Improve responsiveness and design for mobile devices.  
+  - Add interactive elements and animations for a smoother user experience.
+
+## 🤝 Contributing
+To contribute to this project, please follow these steps:
+
+# 1️⃣ Fork the repository on GitHub.
+```git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
+# 2️⃣ Create a new branch for your feature or bugfix.
+```
+git checkout -b feature-branch
+```
+# 3️⃣ Make your changes and commit them.
+```
+git add .
+git commit -m "Description of your changes"
+```
+
+# 4️⃣ Push your branch to GitHub.
+```
+git push origin feature-branch
+```
+# 5️⃣ Open a Pull Request (PR) for review.
+
+
+ ## 📜 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project with proper attribution.
 
 

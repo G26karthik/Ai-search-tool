@@ -1,3 +1,4 @@
+
 # **AI-Powered Search & Aggregation Tool**
 
 ## **🌟 Overview**
@@ -127,6 +128,12 @@ http://localhost:3000
 ### **5️⃣ Multithreaded Backend for Faster Searches**
 - Uses **Python’s FastAPI + Multithreading** to **speed up** search requests.
 - **Google & YouTube searches run in parallel**, reducing load time.
+
+---
+
+## Video Demo 
+
+https://github.com/user-attachments/assets/c066676a-de95-4f10-ac8c-2cfdb81b5935
 
 ---
 

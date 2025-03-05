@@ -132,45 +132,46 @@ http://localhost:3000
 
 ## 🌍 Live Demo
 **Frontend (Vercel):** [Click Here](https://ai-search-tool.vercel.app/)  
-**Backend (Render):** [Click Here](https://your-render-backend-url.com)
-
+**Backend:** Running **locally**  
 
 ## 📌 Deployment Instructions
 
 ### Frontend Deployment (Vercel)
 
 # 1️⃣ Install Vercel CLI and log in
+
 ```
-npm install -g vercel
-vercel login
+npm install -g vercel vercel login
 ```
 
 # 2️⃣ Deploy the Frontend
 ```
-cd search-tool
-vercel --prod
+cd search-tool vercel --prod
 ```
-## Backend (Render)
-📌 Create requirements.txt in backend (already provided).
 
-📌 Push to GitHub & Deploy via Render.com.
+## Backend (Run Locally)
+📌 The Backend Set-up has been explained in above section (Backend-Setup)
 
+
+
+📌 Update frontend to use the local backend:
+- Modify the frontend API URL in your React app to `http://localhost:8000` instead of a deployed URL.
+
+---
 
 ## 📑 Challenges & Future Improvements
 
 ### ✅ Challenges Faced:
 
-Query expansion sometimes changes the intent of the search.
-API rate limits for SerpAPI & YouTube Data API.
-Initial slow response time (fixed with multithreading).
+- Query expansion sometimes changes the intent of the search.
+- API rate limits for SerpAPI & YouTube Data API.
+- Deployment issues with backend on Render, so it's running locally.
 
 ### 🚀 Future Improvements:
 
-Add LinkedIn search integration.
-Use a database to cache & speed up repeated searches.
-Implement user authentication for personalized search history.
-
-## 🚀 Future Improvements
+- **Backend Deployment:**  
+  - Explore other platforms like Railway or self-hosted solutions.  
+  - Debug existing deployment issues on Render.
 
 - **Expand Search Sources:**  
   - Integrate additional platforms such as LinkedIn, Reddit, and Twitter for a more comprehensive search experience.

@@ -137,35 +137,6 @@ https://github.com/user-attachments/assets/c066676a-de95-4f10-ac8c-2cfdb81b5935
 
 ---
 
-## 🌍 Live Demo
-**Frontend (Vercel):** [Click Here](https://ai-search-tool.vercel.app/)  
-**Backend:** Running **locally**  
-
-## 📌 Deployment Instructions
-
-### Frontend Deployment (Vercel)
-
-# 1️⃣ Install Vercel CLI and log in
-
-```
-npm install -g vercel vercel login
-```
-
-# 2️⃣ Deploy the Frontend
-```
-cd search-tool vercel --prod
-```
-
-## Backend (Run Locally)
-📌 The Backend Set-up has been explained in above section (Backend-Setup)
-
-
-
-📌 Update frontend to use the local backend:
-- Modify the frontend API URL in your React app to `http://localhost:8000` instead of a deployed URL.
-
----
-
 ## 📑 Challenges & Future Improvements
 
 ### ✅ Challenges Faced:
@@ -175,10 +146,6 @@ cd search-tool vercel --prod
 - Deployment issues with backend on Render, so it's running locally.
 
 ### 🚀 Future Improvements:
-
-- **Backend Deployment:**  
-  - Explore other platforms like Railway or self-hosted solutions.  
-  - Debug existing deployment issues on Render.
 
 - **Expand Search Sources:**  
   - Integrate additional platforms such as LinkedIn, Reddit, and Twitter for a more comprehensive search experience.
@@ -228,4 +195,4 @@ git push origin feature-branch
  ## 📜 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project with proper attribution.
 
-**Report:** [Click Here](https://docs.google.com/document/d/1reWZoeUM231ZYx6qcaSB2XGd3E5JgMmTZScidIS5-DI/edit?usp=sharing))  
+**Report:** [Click Here](https://docs.google.com/document/d/1reWZoeUM231ZYsx6qcaSB2XGd3E5JgMmTZScidIS5-DI/edit?usp=sharing))  

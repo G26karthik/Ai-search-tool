@@ -194,5 +194,3 @@ git push origin feature-branch
 
  ## 📜 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project with proper attribution.
-
-**Report:** [Click Here](https://docs.google.com/document/d/1reWZoeUM231ZYsx6qcaSB2XGd3E5JgMmTZScidIS5-DI/edit?usp=sharing))  
